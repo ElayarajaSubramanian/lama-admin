@@ -1,0 +1,33 @@
+.navbar {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+}
+.navbar .icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navbar .icons .notification {
+  display: flex;
+  align-items: center;
+}
+.navbar .icons .user {
+  display: flex;
+  align-items: center;
+}
+.navbar .icons .user img {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
